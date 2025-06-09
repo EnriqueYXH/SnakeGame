@@ -38,7 +38,7 @@ public class MainFrame extends JFrame {
     //初始化窗体参数
     private void initFrame() {
         // 使用对话框让用户选择棋盘大小
-        String[] options = {"小 (30x30)", "中 (40x40)"};
+        String[] options = {"小 (10x10)", "中 (30x30)"};
         choice = JOptionPane.showOptionDialog(
                 this,
                 "请选择棋盘大小:",
